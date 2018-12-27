@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 const express = require('express');
-const app = express()
+const app = express();
 const server = require('http').Server(app);
 const io = module.exports.io = require('socket.io')(server);
 
