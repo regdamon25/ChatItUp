@@ -106,7 +106,7 @@ export default class LoginForm extends Component {
 
 						onChange={this.handleChange}
 
-						placeholder={'Well write it then!'}
+						placeholder={'Enter it here'}
 
 						/>
 
